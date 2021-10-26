@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&family=Titillium+Web&display=swap");
+.blurBackground {
+  background-color: rgba(165, 158, 158, 0.28);
+  height: 100vh;
+  display: flex;
+}
+.registerContainer {
+  width: 40%;
+  min-width: 500px;
+  box-shadow: 6px 10px 21px 1px rgba(109, 109, 109, 0.51);
+  -webkit-box-shadow: 6px 10px 21px 1px rgba(109, 109, 109, 0.51);
+  -moz-box-shadow: 6px 10px 21px 1px rgba(109, 109, 109, 0.51);
+  background: #f8f9fa;
+  margin: auto;
+  position: relative;
+}
+.registerWrapper {
+  opacity: 1;
+}
+.cancleRegister {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 20px;
+  background-color: #ff3f5f;
+  color: #f8f9fa;
+  border: 3px solid #f8f9fa;
+}
+
+.header {
+  padding: 2%;
+  text-align: center;
+  color: #ff3f5f;
+  font-size: 18px;
+  font-family: "Paytone One", sans-serif;
+}
+
+.body {
+  padding: 3%;
+  text-align: center;
+}
+
+.registerfooter {
+  padding: 3%;
+
+  text-align: center;
+  background-color: #ff3f5f;
+  color: #f8f9fa;
+}
+.continueButtonFinal {
+  padding: 7px 15px;
+  font-size: 18px;
+  font-family: "Paytone One", sans-serif;
+  background: #ff3f5f;
+  color: #fff;
+  border-radius: 0.3em;
+  border: 1px solid transparent;
+}
+.bold {
+  font-weight: bold;
+}
